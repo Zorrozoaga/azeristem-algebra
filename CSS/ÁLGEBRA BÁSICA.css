@@ -1,0 +1,391 @@
+	#logo{
+		float: left;
+		position: relative;
+		left: 20px;
+		bottom: 150px;
+		z-index: 3;
+	}
+	#al-Jabr{
+		float: right;
+		position: relative;
+		right: 20px;
+		bottom: 150px;
+		z-index: 3;
+	}
+	#copyright{
+		float: left;
+		position: relative;
+		bottom: 130px;
+		left: 20px;
+	}
+	div#heading{  
+		background: -webkit-repeating-linear-gradient(90deg, rgb(171,199,255), rgb(28,142,255));
+		text-align: center;
+		font-style: bold;
+		width: 100%;
+		height: 150px;
+		float: top;
+		position: fixed;
+		z-index: 1;
+	}
+	div#tabs{
+		background: -webkit-repeating-linear-gradient(90deg, rgb(28,142,255), rgb(171,199,255));
+		float: right;
+		text-align: justify-all;
+		width: 100%;
+		height: 30px;
+		position: fixed;
+		bottom: 470px;
+		z-index: 2;
+	}
+	div#home1{
+		text-align: center;
+		content: hidden;
+		position: absolute;
+		border: 3px black dotted;
+		background-color: rgba(255, 140, 25, 0.7);
+		float: center;
+		left: 60px;
+		height: 380px;
+		width: 80%;
+		padding: 10px 10px 10px 10px;
+		margin: 30px 30px 30px 30px;
+		overflow: none;
+		visibility: visible;
+	}
+	div#home2{
+		text-align: center;
+		content: hidden;
+		position: absolute;
+		border: 3px black dotted;
+		background-color: rgba(255, 140, 25, 0.7);
+		float: center;
+		left: 60px;
+		height: 380px;
+		width: 80%;
+		padding: 10px 10px 10px 10px;
+		margin: 30px 30px 30px 30px;
+		overflow: none;
+		visibility: hidden;
+	}
+	div#home3{
+		text-align: center;
+		content: hidden;
+		position: absolute;
+		border: 3px black dotted;
+		background-color: rgba(255, 140, 25, 0.7);
+		float: center;
+		left: 60px;
+		height: 380px;
+		width: 80%;
+		padding: 10px 10px 10px 10px;
+		margin: 30px 30px 30px 30px;
+		overflow: none;
+		visibility: hidden;
+	}
+	div#home4{
+		text-align: center;
+		content: hidden;
+		position: absolute;
+		border: 3px black dotted;
+		background-color: rgba(255, 140, 25, 0.7);
+		float: center;
+		left: 60px;
+		height: 380px;
+		width: 80%;
+		padding: 10px 10px 10px 10px;
+		margin: 30px 30px 30px 30px;
+		overflow: none;
+		visibility: hidden;
+	}
+	div#home5{
+		text-align: center;
+		content: hidden;
+		position: absolute;
+		border: 3px black dotted;
+		background-color: rgba(255, 140, 25, 0.7);
+		float: center;
+		left: 60px;
+		height: 380px;
+		width: 80%;
+		padding: 10px 10px 10px 10px;
+		margin: 30px 30px 30px 30px;
+		overflow: none;
+		visibility: hidden;
+	}
+	div#home6{
+		text-align: center;
+		content: hidden;
+		position: absolute;
+		border: 3px black dotted;
+		background-color: rgba(255, 140, 25, 0.7);
+		float: center;
+		left: 60px;
+		height: 380px;
+		width: 80%;
+		padding: 10px 10px 10px 10px;
+		margin: 30px 30px 30px 30px;
+		overflow: none;
+		visibility: hidden;
+	}
+	table.tabs{
+		margin-left: 300px;
+		width: 50% ;
+		text-align: center;
+	}
+	button{
+		display: inline-block;
+		background-color: rgba(0,0,0,0);
+		border: none;
+		font-family: 'Calibri', sans-serif;
+		font-size: 16px;
+	}
+	a{
+		color: black;
+		text-decoration: none;
+	}
+	body{
+		background: url(http://3.bp.blogspot.com/-LNxhZUv3y2Q/VXZX85CTe0I/AAAAAAAAAJ0/ZATqumzB2ew/s320/fundo-twitter-matematica.jpg);
+		overflow: hidden;
+	}
+	.main-title{
+		font-size: 63px;
+		font-family: 'Algerian', cursive;
+		color: rgb(173,54,78);
+		text-shadow:  4px 4px black;
+		text-decoration: underline;
+		float: right;
+		position: relative;
+		right: 450px;
+	}
+	.main-subtitle{
+		font-family: 'Lucida Handwriting';
+		font-style: italic;
+		font-size: 18px;
+		float: left;
+		position: relative;
+		left: 160px;
+	}
+	img.index{
+		float: right;
+		position: relative;
+	}
+	div#contents{
+		columns: 250px 2;
+		background-color: rgba(255, 255, 255, 0.5);
+		visibility: hidden;
+		position: relative;
+	}
+	h3{
+		text-align: center;
+		font-family: 'Bahnschrift', monospace;
+		font-style: italic;
+	}
+	li{
+		font-family: 'Arial', sans-serif;
+		font-size: 16px;
+		text-shadow: 0.25px 0.25px;
+	}
+	span#highlighting{
+		font-weight: 600;
+	}
+	#header1{
+		font-family: 'Berlin Sans FB', sans-serif;
+		visibility: visible;
+	}
+	#header2{
+		font-family: 'Berlin Sans FB', sans-serif;
+		visibility: hidden;
+	}
+	#header3{
+		font-family: 'Berlin Sans FB', sans-serif;
+		visibility: hidden;
+	}
+	#header4{
+		font-family: 'Berlin Sans FB', sans-serif;
+		visibility: hidden;
+	}
+	#header5{
+		font-family: 'Berlin Sans FB', sans-serif;
+		visibility: hidden;
+	}
+	#header6{
+		font-family: 'Berlin Sans FB', sans-serif;
+		visibility: hidden;
+	}
+	#paragraph1{
+		font-family: 'Garamond', serif;
+		text-align: left;
+		visibility: visible;
+	}
+	#paragraph2{
+		font-family: 'Garamond', serif;
+		text-align: left;
+		visibility: hidden;
+	}
+	#paragraph3{
+		font-family: 'Garamond', serif;
+		text-align: left;
+		visibility: hidden;
+	}
+	#paragraph4{
+		font-family: 'Garamond', serif;
+		text-align: left;
+		visibility: hidden;
+	}
+	#paragraph5{
+		font-family: 'Garamond', serif;
+		text-align: left;
+		visibility: hidden;
+	}
+	#paragraph6{
+		font-family: 'Garamond', serif;
+		text-align: left;
+		visibility: hidden;
+	}
+	#paragraph1list{
+		font-family: 'Garamond', serif;
+		text-align: left;
+		visibility: visible;
+	}
+	#paragraph2list{
+		font-family: 'Garamond', serif;
+		text-align: left;
+		visibility: hidden;
+	}
+	#paragraph3list{
+		font-family: 'Garamond', serif;
+		text-align: left;
+		visibility: hidden;
+	}
+	#Inicio{
+		text-decoration: underline;
+	}
+	#Lecciones{
+		text-decoration: none;
+	}
+	#ENTRY1{
+		bottom: 120px;
+	}
+	#ENTRY3{
+		bottom: 140px;
+	}
+	#ENTRY5{
+		bottom: 135px;
+	}
+	#ENTRY7{
+		bottom: 160px;
+	}
+	#ENTRY9{
+		bottom: 150px;
+	}
+	#ENTRY11{
+		bottom: 140px;
+	}
+	#ENTRY2{
+		bottom: 155px;
+		right: 10px;
+	}
+	#ENTRY4{
+		bottom: 100px;
+		right: 130px;
+	}
+	#ENTRY6{
+		bottom: 170px;
+		right: 10px;
+	}
+	#ENTRY8{
+		bottom: 130px;
+		right: 10px;
+	}
+	#ENTRY10{
+		bottom: 130px;
+		right: 10px;
+	}
+	#ENTRY12{
+		bottom: 140px;
+		right: 10px;
+	}
+	#intro1{
+		float: right;
+		position: relative;
+		top: -165px;
+	}
+	#intro2{
+		float: right;
+		position: relative;
+		top: -165px;
+	}
+	#intro3{
+		float: right;
+		position: relative;
+		top: -165px;
+	}
+	#intro4{
+		float: right;
+		position: relative;
+		top: 50px;
+	}
+	#intro4-1{
+		float: left;
+		position: relative;
+		top: 50px;
+	}
+	#intro5{
+		float: right;
+		position: relative;
+		bottom: 10px;
+	}
+	#transition1{
+		border: 2px dashed;
+		font-family: sans-serif;
+		font-size: 18px;
+		font-weight: 600;
+		float: bottom;
+		position: relative;
+		left: 200px;
+		visibility: visible;
+	}
+	#transition2{
+		border: 2px dashed;
+		font-family: sans-serif;
+		font-size: 18px;
+		font-weight: 600;
+		float: bottom;
+		position: relative;
+		left: 200px;
+		visibility: hidden;
+	}
+	#transition3{
+		border: 2px dashed;
+		font-family: sans-serif;
+		font-size: 18px;
+		font-weight: 600;
+		float: bottom;
+		position: relative;
+		left: 200px;
+		bottom: 50px;
+		visibility: hidden;
+	}
+	#transition4{
+		border: 2px dashed;
+		font-family: sans-serif;
+		font-size: 18px;
+		font-weight: 600;
+		float: bottom;
+		position: relative;
+		top: 40px;
+		left: 150px;
+		visibility: hidden;
+	}
+	#transition5{
+		border: 2px dashed;
+		font-family: sans-serif;
+		font-size: 18px;
+		font-weight: 600;
+		float: bottom;
+		position: relative;
+		top: 40px;
+		left: 150px;
+		visibility: hidden;
+	}
